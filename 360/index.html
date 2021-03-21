@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miami Otte</title>
+    <link rel="stylesheet" href="pannellum.css"/>
+    <script type="text/javascript" src="pannellum.js"></script>
+    <style>
+    #panorama {
+        width: 100%;
+	height: 100%;
+    }
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<center><script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "360_low.png"
+});
+</script></center>
+
+</body>
+</html>
